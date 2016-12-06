@@ -1,6 +1,6 @@
 package io.bigbears.java.one;
 
-public class Type {
+public class Prefix {
 
     String yo = "Yo !";
 
@@ -10,6 +10,8 @@ public class Type {
 
     transient String tyo = "Yo !!!!";
 
-    static final transient String YO = "Yo !!!!";
+    static final String SYO = "Yo !!!!";
+
+    final transient String FYO = "Yo !!!!";
 
 }

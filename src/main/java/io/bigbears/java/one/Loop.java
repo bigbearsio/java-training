@@ -11,7 +11,7 @@ public class Loop {
         }
     }
 
-    public void forEach() {
+    public void forEach7() {
         List<Integer> list = Arrays.asList(0, 1, 2, 3);
         for (Integer i : list) {
             System.out.println(i);
@@ -32,4 +32,8 @@ public class Loop {
         } while (i < 4);
     }
 
+    public void forEach8() {
+        List<Integer> list = Arrays.asList(0, 1, 2, 3);
+        list.forEach(i -> System.out.println(i));
+    }
 }

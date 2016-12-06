@@ -10,7 +10,7 @@ public class Class {
 
     Short s = 1;
 
-    Integer i = 1000;
+    Integer i = 100;
 
     Long l = 100L;
 
