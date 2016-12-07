@@ -18,7 +18,7 @@ public class DonaldDuck extends Duck
     }
 
     @Override
-    public void bark() {
+    public void sing() {
         System.out.println("Kab Kab Kab");
     }
 

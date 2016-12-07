@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public abstract class Duck {
 
-    final LocalDate born;
+    private final LocalDate born;
 
     public Duck() {
         born = LocalDate.now();
@@ -18,6 +18,6 @@ public abstract class Duck {
         System.out.println("I's born " + born.toString());
     }
 
-    abstract void bark();
+    abstract void sing();
 
 }

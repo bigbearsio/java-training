@@ -4,7 +4,7 @@ public class FlyByRocket implements FlyBehavior {
 
     @Override
     public void fly() {
-        System.out.println("feeeeeew");
+        System.out.println("I'm Rocket");
     }
 
 }
