@@ -10,11 +10,21 @@ public class Condition {
         }
     }
 
-    public void showIfThenElse() {
+    public void showIfElse() {
         if (100 == 101) {
             out.println("100 == 100");
         } else {
-            out.println("100 != 100");
+            out.println("100 != 101");
+        }
+    }
+
+    public void showIfElseIf() {
+        if (100 == 101) {
+            out.println("100 == 101");
+        } else if (100 == 102) {
+            out.println("100 == 102");
+        } else {
+            out.println("100 != 101");
         }
     }
 
@@ -38,11 +48,7 @@ public class Condition {
         char c = 'O';
         switch (c) {
             case 'A':
-                System.out.println("Yo A!");
-                break;
             case 'E':
-                System.out.println("Yo E!");
-                break;
             case 'I':
                 System.out.println("Yo I!");
                 break;
