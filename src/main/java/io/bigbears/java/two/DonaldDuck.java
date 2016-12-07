@@ -1,5 +1,7 @@
 package io.bigbears.java.two;
 
+import java.util.Objects;
+
 public class DonaldDuck extends Duck
         implements FlyBehavior {
 
@@ -25,6 +27,22 @@ public class DonaldDuck extends Duck
     @Override
     public void fly() {
         System.out.println("I'm Fly");
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof DonaldDuck) {
+            return this.hashCode() == obj.hashCode();
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 67 * hash + Objects.hashCode(this.name);
+        return hash;
     }
 
 }

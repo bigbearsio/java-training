@@ -25,4 +25,9 @@ public class RocketDuck extends Duck {
         this.wing = wing;
     }
 
+    @Override
+    String species() {
+        return "RocketDuck";
+    }
+
 }
