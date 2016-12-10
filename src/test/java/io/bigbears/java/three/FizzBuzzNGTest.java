@@ -1,5 +1,6 @@
-package io.bigbears.java.zero;
+package io.bigbears.java.three;
 
+import io.bigbears.java.three.FizzBuzz;
 import java.util.Arrays;
 import java.util.List;
 import static org.testng.Assert.*;

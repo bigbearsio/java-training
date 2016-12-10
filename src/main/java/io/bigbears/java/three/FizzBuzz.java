@@ -1,12 +1,8 @@
-package io.bigbears.java.zero;
+package io.bigbears.java.three;
 
 import java.util.Arrays;
 import java.util.List;
 
-/**
- *
- * @author nuboat
- */
 public class FizzBuzz {
 
     String parse(int i) {
@@ -34,8 +30,6 @@ public class FizzBuzz {
             }
         }
     }
-
-    // i (top) === listN.get(i)
 
     List<Integer> listN = Arrays.asList(3, 5, 18, 10, 21, 9, 6, 13, 8, 22);
     void prints(final List<Integer> listN, int stop) {
